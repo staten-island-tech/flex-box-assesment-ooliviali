@@ -1,0 +1,13 @@
+html {
+    box-sizing: border-box;
+    margin: 5;
+    padding: 5;
+}
+body {
+    background-color: blanchedalmond;
+
+}
+.header {
+    padding: 1.5rem;
+}
+/*#sourceMappingURL=style.css.map */
