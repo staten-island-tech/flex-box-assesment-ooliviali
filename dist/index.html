@@ -9,16 +9,36 @@
 
     <h1> <center>boxes</center> </h1>
 <style>
+    .column {
+      flex: 25%;
+     max-width: 25%;
+      padding: 0 4px;
+    }
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+    } 
+    @media (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    @media (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
     
     .flex-container {
       display: flex;
     background-color: rgba(255, 255, 255, 0.568);
       justify-content:space-around;
       align-items: center;
-      flex-direction: column;
-    
+      flex-direction:column;
     }
-    
+   
     .flex-container > div {
       background-color: rgb(31, 154, 158);
       margin: 20px;
@@ -26,6 +46,7 @@
       font-size: 10rem;
       justify-content: center;
       align-items: center;
+
     }
     </style>
     </head>
@@ -33,9 +54,42 @@
     
     <div class="flex-container">
       <img class="item" src="/dist/img/landscape-4346633__340.webp"> 
-      <img class="item" src="/dist/img/landscape-4346633__340.webp">;
-      <img class="item" src="/dist/img/landscape-4346633__340.webp">; 
-
+    </div>
+    <div class="row">
+    <div class="column">
+      <img src="/dist/img/landscape-4346633__340.webp"
+      style="width: 100%">
+      <img src="/dist/img/landscape-4346633__340.webp"
+      style="width: 100%">
+      <img src="/dist/img/landscape-4346633__340.webp"
+      style="width: 100%">
+      <img src="/dist/img/landscape-4346633__340.webp"
+      style="width: 100%">
+    </div>
+<div class="column">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+</div>
+<div class="column">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+</div>
+<div class="column">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+</div>
     </div>
     </body>
     </html>
