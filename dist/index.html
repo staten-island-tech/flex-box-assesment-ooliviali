@@ -15,8 +15,10 @@ body {
 }
 .row {
   display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+  flex-wrap:wrap;
+  padding: 10px;
+  justify-content: center;   
+  flex-grow: 100; 
 }
     .column {
       flex: 25%;
@@ -24,13 +26,16 @@ body {
       padding: 0 4px;
     }
     .column img {
-      margin-top: 8px;
-      vertical-align: middle;
+      margin-top: 0.5rem;
+      vertical-align:middle;
+      
+
     } 
     @media (max-width: 800px) {
       .column {
-        flex: 50%;
-        max-width: 50%;
+        flex: 100%;
+        max-width: 100%;
+
       }
     }
     @media (max-width: 600px) {
@@ -58,7 +63,6 @@ body {
 
     }
 
-
     </style>
     </head>
     <body>
@@ -70,16 +74,26 @@ body {
     <div class="column">
       <a href="https://www.google.com/">
       <img src="/dist/img/landscape-4346633__340.webp" alt="https://www.google.com/"
-      style="width: 100%">
-    </a>
+      style="width: 100%">     </a>
       <img src="/dist/img/landscape-4346633__340.webp"
       style="width: 100%">
       <img src="/dist/img/landscape-4346633__340.webp"
       style="width: 100%">
       <img src="/dist/img/landscape-4346633__340.webp"
+      style="width: 100%">    
+        <img src="/dist/img/landscape-4346633__340.webp"
       style="width: 100%">
-    </div>
+      <img src="/dist/img/landscape-4346633__340.webp"
+      style="width: 100%">
+
+      </div>
 <div class="column">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
+  <img src="/dist/img/landscape-4346633__340.webp"
+  style="width: 100%">
   <img src="/dist/img/landscape-4346633__340.webp"
   style="width: 100%">
   <img src="/dist/img/landscape-4346633__340.webp"
@@ -87,6 +101,7 @@ body {
   <img src="/dist/img/landscape-4346633__340.webp"
   style="width: 100%">
 </div>
+
 <div class="column">
   <img src="/dist/img/landscape-4346633__340.webp"
   style="width: 100%">
@@ -94,14 +109,13 @@ body {
   style="width: 100%">
   <img src="/dist/img/landscape-4346633__340.webp"
   style="width: 100%">
-</div>
-<div class="column">
   <img src="/dist/img/landscape-4346633__340.webp"
   style="width: 100%">
   <img src="/dist/img/landscape-4346633__340.webp"
   style="width: 100%">
   <img src="/dist/img/landscape-4346633__340.webp"
   style="width: 100%">
+
 </div>
     </div>
     </body>
