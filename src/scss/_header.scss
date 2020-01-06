@@ -1,12 +1,13 @@
-header {
+@import "./_variables.scss";
+
+h1 {
     padding: 20px;
     text-align: center;
     font-size: 5rem;
-    background: #da7727;
+    font-family: fantasy;
     background-size: cover;
     color: white;
-   
+    background-color: $primary-color;
 }
-
 
 /*#sourceMappingURL=style.css.map */
