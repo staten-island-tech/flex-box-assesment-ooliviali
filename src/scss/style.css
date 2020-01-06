@@ -1,3 +1,5 @@
+@import "./_variables.scss";
+
 h1 {
     padding: 20px;
     text-align: center;
@@ -12,7 +14,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #db7000;
+  background-color: #da7727;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
